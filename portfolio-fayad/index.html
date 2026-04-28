@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fayad Kaffoura — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <canvas id="bg-canvas"></canvas>
+
+  <div class="cursor-dot" id="cursor-dot"></div>
+  <div class="cursor-ring" id="cursor-ring"></div>
+
+  <nav id="navbar">
+    <div class="nav-logo">FK</div>
+    <div class="nav-links">
+      <a href="#about">about</a>
+      <a href="#skills">skills</a>
+      <a href="#projects">projects</a>
+      <a href="#contact">contact</a>
+    </div>
+    <div class="nav-status">
+      <span class="status-dot"></span>
+      open to work
+    </div>
+  </nav>
+
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-tag">[ software engineer ]</div>
+      <h1 class="hero-name">
+        <span class="line">Fayad</span>
+        <span class="line accent">Kaffoura</span>
+      </h1>
+      <p class="hero-sub">
+        Building scalable systems &amp; clean interfaces.<br />
+        Turning complex problems into elegant solutions.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View my work</a>
+        <a href="#contact" class="btn-ghost">Get in touch →</a>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">01</span>
+        <h2 class="section-title">About</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a software engineer passionate about building things that matter —
+            from robust backend systems to polished frontend experiences.
+          </p>
+          <p>
+            I thrive at the intersection of performance and design, crafting
+            software that's both technically sound and delightful to use.
+          </p>
+          <p>
+            When I'm not coding, I'm exploring new tech, contributing to open
+            source, or experimenting with creative projects.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Years of experience</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">20+</span>
+            <span class="stat-label">Projects delivered</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">∞</span>
+            <span class="stat-label">Lines of code</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">01</span>
+            <span class="stat-label">Obsession: clean code</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">02</span>
+        <h2 class="section-title">Skills</h2>
+      </div>
+      <div class="skills-wrapper">
+        <div class="skill-group">
+          <div class="skill-group-title">Frontend</div>
+          <div class="skill-list">
+            <div class="skill-item" data-level="90">
+              <span class="skill-name">JavaScript / TypeScript</span>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-item" data-level="85">
+              <span class="skill-name">React / Next.js</span>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-item" data-level="80">
+              <span class="skill-name">CSS / Tailwind</span>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-item" data-level="70">
+              <span class="skill-name">Three.js / WebGL</span>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-title">Backend</div>
+          <div class="skill-list">
+            <div class="skill-item" data-level="85">
+              <span class="skill-name">Node.js / Express</span>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-item" data-level="80">
+              <span class="skill-name">Python / FastAPI</span>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-item" data-level="75">
+              <span class="skill-name">PostgreSQL / MongoDB</span>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-item" data-level="70">
+              <span class="skill-name">Docker / Kubernetes</span>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-title">Tools &amp; Cloud</div>
+          <div class="skill-list">
+            <div class="skill-item" data-level="80">
+              <span class="skill-name">AWS / GCP</span>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-item" data-level="85">
+              <span class="skill-name">Git / GitHub Actions</span>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-item" data-level="75">
+              <span class="skill-name">Linux / Shell scripting</span>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+            <div class="skill-item" data-level="70">
+              <span class="skill-name">Redis / Message queues</span>
+              <div class="skill-bar"><div class="skill-fill"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">03</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-meta">
+            <span class="project-year">2024</span>
+            <span class="project-type">Full Stack</span>
+          </div>
+          <h3 class="project-name">Platform Alpha</h3>
+          <p class="project-desc">
+            A real-time collaborative platform with live presence indicators,
+            conflict-free editing, and sub-100ms sync via WebSockets.
+          </p>
+          <div class="project-stack">
+            <span>React</span><span>Node.js</span><span>Redis</span><span>WebSockets</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-link">GitHub →</a>
+            <a href="#" class="proj-link">Live →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-meta">
+            <span class="project-year">2024</span>
+            <span class="project-type">Backend</span>
+          </div>
+          <h3 class="project-name">API Gateway</h3>
+          <p class="project-desc">
+            Scalable REST API with auth, rate limiting, and structured logging.
+            Handles 10k+ requests per minute.
+          </p>
+          <div class="project-stack">
+            <span>Python</span><span>FastAPI</span><span>Docker</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-link">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-meta">
+            <span class="project-year">2023</span>
+            <span class="project-type">CLI Tool</span>
+          </div>
+          <h3 class="project-name">Dev CLI</h3>
+          <p class="project-desc">
+            A developer toolkit automating deployment pipelines, environment setup,
+            and repetitive workflow tasks.
+          </p>
+          <div class="project-stack">
+            <span>Python</span><span>Shell</span><span>CI/CD</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-link">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-meta">
+            <span class="project-year">2023</span>
+            <span class="project-type">Frontend</span>
+          </div>
+          <h3 class="project-name">Analytics Dashboard</h3>
+          <p class="project-desc">
+            Real-time data visualization dashboard with interactive charts,
+            filters, and custom reporting.
+          </p>
+          <div class="project-stack">
+            <span>React</span><span>D3.js</span><span>PostgreSQL</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-link">GitHub →</a>
+            <a href="#" class="proj-link">Live →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">04</span>
+        <h2 class="section-title">Contact</h2>
+      </div>
+      <div class="contact-content">
+        <p class="contact-headline">Let's build something great together.</p>
+        <a href="mailto:fayad@example.com" class="contact-email">fayad@example.com</a>
+        <div class="contact-links">
+          <a href="https://github.com/" target="_blank" class="social-link">GitHub</a>
+          <a href="https://linkedin.com/" target="_blank" class="social-link">LinkedIn</a>
+          <a href="https://twitter.com/" target="_blank" class="social-link">Twitter</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <span>© 2026 Fayad Kaffoura</span>
+      <span>Built with Three.js &amp; ❤️</span>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
